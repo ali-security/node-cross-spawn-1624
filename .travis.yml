@@ -6,3 +6,5 @@ node_js:
   - '0.10'
   - '7'
 dist: precise
+before_install:
+  - npm install spawn-sync
